@@ -1,0 +1,72 @@
+.contenido{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.navbar{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.icono{
+  padding-right: 5px;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+.redes-sociales{
+  line-height: 20px;
+  font-size: smaller;
+
+}
+
+@media only screen and (max-width: 329px) {
+	.correccionTitulo{
+		font-size: 1.1rem !important;
+	}
+}
+.btn-rounded{
+  border-radius: 10em !important;
+}
+
+.informacion-footer p{
+  font-size: 14px !important;
+  margin: 0px !important;
+}
+
+.informacion-footer h5{
+  font-size: 23px;
+}
+
+.informacion-footer a{
+  text-decoration: none !important;
+  margin-right: 30px;
+}
+
+.informacion-footer .col-lg-4{
+  padding-left: 60px !important;
+}
+
+.cuerpo-home{
+  margin-top: 30px;
+}
+
+.columna-contacto{
+  border-color: #6c757d;
+  border-left: 1.5px solid ;
+}
+@media only screen and (max-width: 600px) {
+  .columna-contacto{
+    margin-top: 20px;
+    border-left: 0px solid !important;
+  }
+}
+
+.patrocinadores{
+  border-color: rgba(255,255,255,.5);
+  padding-right: 32px;
+  margin-right: 16px;
+  border-right: 1.5px solid ;
+  font-size: 23px !important;
+}
